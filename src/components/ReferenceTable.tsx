@@ -10,27 +10,27 @@ function RefereceTable() {
           <tbody className="[&>tr:nth-child(even)]:bg-zinc-100 [&>tr>td]:px-6 [&>tr>td]:py-1">
             <tr>
               <td>Menor que 18.5</td>
-              <td>Baixo peso ideal</td>
-            </tr>
-            <tr>
-              <td>Entre 18.5 e 24.9</td>
               <td>Abaixo do peso</td>
             </tr>
             <tr>
-              <td>Entre 25 e 29.9</td>
+              <td>Entre 18.5 e 24.9</td>
               <td>Peso normal</td>
             </tr>
             <tr>
-              <td>Entre 30 e 34.9</td>
-              <td>Sobrepeso</td>
+              <td>Entre 25 e 29.9</td>
+              <td>Acima do peso</td>
             </tr>
             <tr>
-              <td>Entre 35 e 39.9</td>
+              <td>Entre 30 e 34.9</td>
               <td>Obesidade grau I</td>
             </tr>
             <tr>
-              <td>Maior que 40</td>
+              <td>Entre 35 e 39.9</td>
               <td>Obesidade grau II (severa)</td>
+            </tr>
+            <tr>
+              <td>Maior que 40</td>
+              <td>Obesidade grau III (mórbida)</td>
             </tr>
           </tbody>
         </table>
